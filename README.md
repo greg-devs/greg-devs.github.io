@@ -1,3 +1,1 @@
-# Iskolai Projekt
-## Egy kávézó weboldalának felújítása
- 
+# Lucky kávézó
