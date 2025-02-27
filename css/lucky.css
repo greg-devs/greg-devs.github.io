@@ -7,3 +7,9 @@ body {
         font-style: normal;
       
 }
+.banner{
+    height: 400px;
+background-size: cover;
+    background-image:url(/greg-devs.github.io/img/banner.jpg);
+    background-position: center center;
+}
