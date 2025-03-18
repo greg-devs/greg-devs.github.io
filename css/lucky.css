@@ -20,6 +20,8 @@ background-size: cover;
     border: 1px solid #1f5b25;
     border-radius: 4px;
     margin-bottom: 1rem;
+    display:inline-block;
+    position: relative;
 
 }
 
@@ -40,6 +42,7 @@ box-shadow: 0px 0px  5px #1f5b25;
 #teszt{
     position: absolute;
     width: 50px;
-    
+    top:  0px;
+    right: 0px;;
 }
 
