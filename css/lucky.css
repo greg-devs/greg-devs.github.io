@@ -46,3 +46,24 @@ box-shadow: 0px 0px  5px #1f5b25;
     right: 0px;;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f5b25;
+    text-align: center;
+}
+footer{
+    background-color: #1f5b25;
+    color: white;
+   
+}
+footer.li{
+    list-style: none;
+}
+
+.footer img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+    
