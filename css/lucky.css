@@ -51,12 +51,12 @@ h1{
     color: #1f5b25;
     text-align: center;
 }
-footer{
+.footer{
     background-color: #1f5b25;
     color: white;
    
 }
-footer.li{
+.footer li{
     list-style: none;
 }
 
@@ -66,4 +66,3 @@ footer.li{
 }
 
 
-    
