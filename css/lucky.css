@@ -55,8 +55,8 @@ h1{
 .footer{
     background-color: #1f5b25;
     color: white;
-    width: 1750px;
-    ;
+    width: 100%;
+    
     
    
 }
@@ -75,3 +75,6 @@ h1{
     
 }
 
+.card{
+    padding: 0px;
+}
