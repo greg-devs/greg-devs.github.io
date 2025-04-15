@@ -78,3 +78,7 @@ h1{
 .card{
     padding: 0px;
 }
+
+.modal.content{
+    background-color: #eadac0;
+}
