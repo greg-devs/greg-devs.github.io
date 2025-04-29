@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky - Kávéfajták</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/lucky.css">
+</head>
+
+<body>
+
+
+  <nav class="container-fluid navbar navbar-expand-lg  bg-success text-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Lucky
+        <img src="/greg-devs.github.io/img/icons/clover.svg" alt="Banner-kép">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+          <a class="nav-link" href="#">Kv fajták</a>
+          <a class="nav-link" href="#">Sütik</a>
+          <a class="nav-link disabled" aria-disabled="true">Blog</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner">
+  </div>
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col-12">
+        <h1 class="my-4">Lucky kávé fajták</h1>
+      </div>
+    </div>
+
+
+    <div class="row mx-auto mb.5">
+      <div class="col-lg-4 col-sm-12 col-md-6 mb-5 " data-bs-toggle="modal" data-bs-target="#AmerikanoModal">
+        <div>
+          <div class="kave" class="card" style="width: 18rem; ">
+            <div class="card-body">
+              <img src="/greg-devs.github.io/Régi weboldal/tiramisu_k.png" alt="" class="img-fluid">
+              <p class="Why">Tiramisu</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 col-md-6 mb-5" data-bs-toggle="modal" data-bs-target="#KapuucsínóModal">
+        <div>
+          <div class="kave" class="card mb-5" style="width: 18rem;">
+            <div class="card-body">
+              <img src="" alt="" class="img-fluid">
+
+              <p class="Why">Isler</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-6 mb-5" data-bs-toggle="modal" data-bs-target="#LatteModal">
+        <div>
+          <div class="kave" class="card" style="width: 18rem;">
+
+            <div class="card-body">
+
+              <img src="img/coffees/latte_k.png" alt="" class="img-fluid">
+              <p class="Why">Látté</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-6 mb-5" data-bs-toggle="modal" data-bs-target="#ExpressóModal">
+        <div>
+          <div class="kave" class="card" style="width: 18rem;">
+
+            <div class="card-body">
+              <img src="img/coffees/espresso_k.png" alt="" class="img-fluid">
+              <p class="Why">Expresszó</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="AmerikanoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Amcsiánó</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+
+                <div class="col-sm-4">
+
+                  <img class="img-fluid" src="/greg-devs.github.io/img/coffees/americano_k.png" alt="kv">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Ámerikánó</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et aut nobis? Doloribus possimus
+                    repudiandae porro consequuntur qui alias officia minus a libero, omnis, ad error? Explicabo beatae
+                    modi sapiente.</p>
+                  <p>Dignissimos et excepturi hic, adipisci est voluptatibus cupiditate perspiciatis explicabo dolore!
+                    Modi impedit atque distinctio aspernatur est, possimus, aliquam corrupti voluptate, ipsum aliquid
+                    nesciunt provident minima cum! Sapiente, voluptatibus consectetur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="modal fade" id="ExpressóModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Expresszó</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img class="img-fluid" src="/greg-devs.github.io/img/coffees/espresso_k.png" alt="kv">
+              </div>
+              <div class="col-sm-8">
+                <h2>Expresszóú</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et aut nobis? Doloribus possimus
+                  repudiandae porro consequuntur qui alias officia minus a libero, omnis, ad error? Explicabo beatae
+                  modi sapiente.</p>
+                <p>Dignissimos et excepturi hic, adipisci est voluptatibus cupiditate perspiciatis explicabo dolore!
+                  Modi impedit atque distinctio aspernatur est, possimus, aliquam corrupti voluptate, ipsum aliquid
+                  nesciunt provident minima cum! Sapiente, voluptatibus consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="modal fade" id="LatteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modal-xl ">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Latte</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img class="img-fluid" src="/greg-devs.github.io/img/coffees/latte_k.png" alt="kv">
+              </div>
+              <div class="col-sm-8">
+                <h2>Láttécska</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et aut nobis? Doloribus possimus
+                  repudiandae porro consequuntur qui alias officia minus a libero, omnis, ad error? Explicabo beatae
+                  modi sapiente.</p>
+                <p>Dignissimos et excepturi hic, adipisci est voluptatibus cupiditate perspiciatis explicabo dolore!
+                  Modi impedit atque distinctio aspernatur est, possimus, aliquam corrupti voluptate, ipsum aliquid
+                  nesciunt provident minima cum! Sapiente, voluptatibus consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="modal fade" id="KapuucsínóModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Kapuccsínó</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img class="img-fluid" src="/greg-devs.github.io/img/coffees/latte_k.png" alt="kv">
+              </div>
+              <div class="col-sm-8">
+                <h2>Kappucsínócska</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et aut nobis? Doloribus possimus
+                  repudiandae porro consequuntur qui alias officia minus a libero, omnis, ad error? Explicabo beatae
+                  modi sapiente.</p>
+                <p>Dignissimos et excepturi hic, adipisci est voluptatibus cupiditate perspiciatis explicabo dolore!
+                  Modi impedit atque distinctio aspernatur est, possimus, aliquam corrupti voluptate, ipsum aliquid
+                  nesciunt provident minima cum! Sapiente, voluptatibus consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer mb-5">
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <h2 class="mt-3">Kapcsolat</h2>
+
+          <ul>
+            <li><img src="img/icons/letter.png" alt="Letterecske" class="img-fluid">Lucky Kávézó</li>
+            <li><img src="img/icons/email.svg" alt="Emilke" class="img-fluid">Lucky@kavezo.hu</li>
+            <li><img src="img/icons/telephone.svg" alt="fánigáj" class="img-fluid">+36-1-555-55-55</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 "></div>
+        <h2>Lucky magazin</h2>
+        <p>Iratkozz fel a kv magazinunkra</p>
+        <form action="">
+
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Feliratkoznék</button>
+            <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon"
+              aria-describedby="button-addon1">
+          </div>
+
+
+        </form>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+
+
+
+</div>
+</div>
