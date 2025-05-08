@@ -82,3 +82,8 @@ h1{
 .modal.content{
     background-color: #eadac0;
 }
+
+.kave img {
+    width: 100%;
+    height: auto;
+}
