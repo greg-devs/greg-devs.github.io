@@ -1,85 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oi&display=swap');
+
 body {
     background-color: #fbefdb;
-    
-        font-family: "Oi", serif;
-        font-weight: 400;
-        font-style: normal;
-      
+
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
-.banner{
+
+.banner {
     height: 400px;
-background-size: cover;
-    background-image:url(/Setemények/ca95685a54d44b8d86f1ca2998012afc.webp);
+    background-size: cover;
+    background-image: url(/Setemények/ca95685a54d44b8d86f1ca2998012afc.webp);
     background-position: center center;
 }
 
-.kave{
+.kave {
     color: #1f5b25;
     background-color: white;
     border: 1px solid #1f5b25;
     border-radius: 4px;
     margin-bottom: 1rem;
-    display:inline-block;
+    display: inline-block;
     position: relative;
 
 }
 
-.kave:hover{
-box-shadow: 0px 0px  5px #1f5b25;
+.kave:hover {
+    box-shadow: 0px 0px 5px #1f5b25;
 
 }
 
-.kave>h2{
+.kave>h2 {
     font-size: 1rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-variant: small-caps;
-    
+
 }
 
 
-#teszt{
+#teszt {
     position: absolute;
     width: 50px;
-    top:  0px;
-    right: 0px;;
+    top: 0px;
+    right: 0px;
+    ;
 }
 
-h1{
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1f5b25;
     text-align: center;
 }
-.footer{
+
+.footer {
     background-color: #1f5b25;
     color: white;
     width: 100%;
-    
-    
-   
+
+
+
 }
-.footer li{
+
+.footer li {
     list-style: none;
 }
 
-.footer img{
+.footer img {
     width: 15px;
     margin-right: 10px;
 }
 
-.Why{
+.Why {
     color: #1f5b25;
     text-align: center;
-    
+
 }
 
-.card{
+.card {
     padding: 0px;
 }
 
-.modal.content{
+.modal.content {
     background-color: #eadac0;
 }
 
@@ -90,6 +95,6 @@ h1{
 
 
 
-.leszopommagam{
+.leszopommagam {
     
 }
