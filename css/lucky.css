@@ -10,7 +10,7 @@ body {
 .banner{
     height: 400px;
 background-size: cover;
-    background-image:url(/img/banner.jpg);
+    background-image:url(/greg-devs.github.io/img/banner.jpg);
     background-position: center center;
 }
 
